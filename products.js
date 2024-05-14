@@ -20,6 +20,7 @@ function displayProducts(products) {
                     <img src="${product.image}" class="card-img-top" alt="${product.title}">
                     <div class="card-body">
                         <h5 class="card-title">${product.title}</h5>
+                        <h6 class="card-description">${product.description}</h6>
                         <p class="card-text">Price:${product.price}</p>
                     </div>
                 </div>
