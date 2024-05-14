@@ -20,8 +20,7 @@ function displayProducts(products) {
                     <img src="${product.image}" class="card-img-top" alt="${product.title}">
                     <div class="card-body">
                         <h5 class="card-title">${product.title}</h5>
-                        <p class="card-text">${product.price}</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <p class="card-text">Price:${product.price}</p>
                     </div>
                 </div>
             </div>
